@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  body{
+    background-image: url('https://media.istockphoto.com/id/1395730471/vector/colorful-gradation-abstract.jpg?s=1024x1024&w=is&k=20&c=jNMHXDrgpURq4yci2D5wYPI1iIhJgIDLLIZ-qrLWt9Y=');
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: skyblue;
+  }
+  form{
+    width: 350px;
+    height: 250px;
+    background-color: transparent;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+  input{
+    width:100%;
+    border: 2px solid gray;
+    outline: none;
+    border-radius: 5px;
+    padding:5px;
+  }
+  button{
+    height:35px;
+    width:300px;
+    margin: 5px 0px;
+    font-size: 25px;
+    border: none;
+    background-color: skyblue;
+    color: black;
+    border-radius: 25px;
+  
+  }
+  button:hover{
+    background-color: #333;
+    color: skyblue;
+    
+  }
+  h1{
+    color: red;
+  }
+  label{
+    color: white;
+  }

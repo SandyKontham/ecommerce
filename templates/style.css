@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  body{
+    background-image: url('https://img.freepik.com/free-photo/registration-application-paper-form-concept_53876-120048.jpg?t=st=1733319295~exp=1733322895~hmac=4f80830b3d301b1d9f1542709cd119e962f6529c342f419b9c880c6bb187e4da&w=900');
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: skyblue;
+  }
+  form{
+    width: 350px;
+    height: 400px;
+    background-color: transparent;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+  input{
+    width:100%;
+    border: 2px solid gray;
+    outline: none;
+    border-radius: 5px;
+    padding:5px;
+  }
+  button{
+    height:35px;
+    width:300px;
+    margin: 5px 0px;
+    font-size: 25px;
+    border: none;
+    background-color: skyblue;
+    color: black;
+    border-radius: 25px;
+  
+  }
+  button:hover{
+    background-color: #333;
+    color: skyblue;
+    
+  }
+  h1{
+    color: black;
+  }
